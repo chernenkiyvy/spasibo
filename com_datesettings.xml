@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+    <name>com_datesettings</name>
+    <author>KIT-GROUP</author>
+    <creationDate>2026-04-03</creationDate>
+    <version>1.5.3</version>
+    <description>Компонент для управления датами акции</description>
+    
+    <administration>
+        <menu>Управление акцией</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>datesettings.php</filename>
+            <filename>controller.php</filename>
+            <folders>views</folders>
+        </files>
+    </administration>
+</extension>
